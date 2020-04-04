@@ -8,7 +8,7 @@
             <a href="#proyecto" class="nav__item">Proyectos</a>
             <a href="https://github.com/dancodedev?tab=repositories" target="_blank" class="nav__item">Github</a>
             <a href="https://codepen.io/dancodedev/" target="_blank" class="nav__item">Codepen</a>
-            <a href="#proyecto" target="_blank" class="nav__item">Linkedin</a>
+            <a href="https://www.linkedin.com/in/dan-jimenez/" target="_blank" class="nav__item">Linkedin</a>
         </div>
 
     </div>
@@ -51,7 +51,9 @@
                 grid-template-rows: 85px 85px;
             }
 
-              
+            @media only screen and (max-width: 375px) {
+               grid-template-rows: 42.5px 42.5px 42.5px;
+            }
     
             .nav__logo{
                 font-size: 23px;
@@ -79,6 +81,10 @@
                     background: #007bff;
                     position: absolute;
                     margin-top: 5px;
+                }
+
+                @media only screen and (max-width: 375px) {
+                    font-size: 15px;
                 }
 
             }

@@ -43,9 +43,15 @@
                 font-weight: 300;
                 margin: 20px;
 
+
                 &.portada__text--title{
                     font-size:70px;
                     font-weight: 800;
+                    
+                    @media only screen and (max-width: 425px) {
+                        font-size: 63px;
+                    }
+                    
                 }
 
                 &.portada__text--subTitle{

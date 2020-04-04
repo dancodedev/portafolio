@@ -67,14 +67,28 @@
             right: -10px;
             top: -10px;
             font-size: 12px;
+
+            @media only screen and (max-width: 768px) {
+                display: none;
+            }
+
         }
 
         .box-doble__left{
             padding: 40px;
+
+            @media only screen and (max-width: 425px) {
+                padding: 15px;
+            }
         }
 
         .box-doble__right{
             padding: 40px;
+
+            @media only screen and (max-width: 425px) {
+                padding: 15px;
+            }
+
         }
 
         .box-doble__image{
